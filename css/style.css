@@ -1,0 +1,67 @@
+/*---elements---*/
+body{
+    background-color:#aaaaff;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 10vh;
+    text-align: center;
+    color: blue;   
+}
+
+
+/*--classes--*/
+.button1{
+    border:0vh;
+    border-radius: 3vh;
+    background-color:blue;
+    margin-left: 50%;
+    box-shadow:  rgb(0, 0, 0) 2vh 1vh;
+    font-size:3vh;
+}
+.button1:hover{
+    transition:padding 1s ease;
+    background-color:red;
+    color: bisque;
+    padding: 3vh;
+}
+
+.button2{
+    margin-left: 50%;
+    margin-top:4vh;
+    background-color:#444444;
+    border-radius: 0%;
+    border:0vh;
+    padding: 4vh;
+    box-shadow: black 0vh 2vh;
+
+}
+.button2:hover{
+    background-color:green;
+    transition: background-color 2s linear;
+    border-radius:100%;
+    transition: border-radius 2s linear;
+}
+
+.button3{
+    border-radius: 1vh;
+    margin-left:50%;
+    margin-top:4vh;
+    padding: 3vh;
+    border-color:black;
+    border:2vh;
+    background-color:blueviolet;
+    box-shadow:purple 0vh 1vh;
+}
+
+
+.button3:hover{
+    margin-left:49%;
+    transition: margin 1s ease;
+    color: black;
+
+}
+
+
+
